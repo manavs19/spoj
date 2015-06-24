@@ -1,4 +1,8 @@
-/* Knapsack Problem */
+/*
+  97 - party
+  	Solution - Knapsack Problem.
+  	Similar
+*/
 #include <stdio.h>
 #include <iostream>
 #include <string.h>

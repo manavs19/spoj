@@ -1,3 +1,15 @@
+/*
+  297 - aggrcow
+  	Solution - Binary Search.
+  		Binary search on possible values of minimum distance(0 to 10^9) 
+		Check whether a minimum distance can be attained. Assign leftmost cow to first stall.
+		For every cow check if it can be given a stall which is atleast at a minimum distance
+		from the previous cow. 
+  	Similar
+  		Mice and holes problem
+  		Here #cows<=#stalls. So binary search needed.
+  		If #cows==#stalls, simply assign cows from left and check min distance possible.
+*/
 #include <stdio.h>
 #include <iostream>
 #include <string.h>
